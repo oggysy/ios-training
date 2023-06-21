@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKy-ok-P1Z">
-                                <rect key="frame" x="98.333333333333329" y="317.66666666666669" width="196.33333333333337" height="216.66666666666657"/>
+                                <rect key="frame" x="98.333333333333329" y="317.66666666666669" width="196.33333333333337" height="216.66666666666669"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cot-sD-19c">
                                         <rect key="frame" x="0.0" y="0.0" width="196.33333333333334" height="196.33333333333334"/>
@@ -26,7 +26,7 @@
                                             <constraint firstAttribute="width" secondItem="Cot-sD-19c" secondAttribute="height" multiplier="1:1" id="v6e-kd-srJ"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Blue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6p-r2-YNo">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6p-r2-YNo">
                                         <rect key="frame" x="0.0" y="196.33333333333331" width="98.333333333333329" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -53,8 +53,8 @@
                                     <constraint firstItem="AtZ-Y9-mxF" firstAttribute="width" secondItem="Cot-sD-19c" secondAttribute="width" multiplier="0.5" id="z7d-Ca-5zx"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPw-5d-eB1">
-                                <rect key="frame" x="98.333333333333314" y="614.33333333333337" width="98.333333333333371" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPw-5d-eB1">
+                                <rect key="frame" x="98.333333333333343" y="614.33333333333337" width="98.333333333333343" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Close"/>
                             </button>
@@ -76,6 +76,7 @@
                             <constraint firstItem="sQ5-Kj-F3a" firstAttribute="top" secondItem="YKy-ok-P1Z" secondAttribute="bottom" constant="80" id="YMx-ny-2G3"/>
                             <constraint firstItem="sQ5-Kj-F3a" firstAttribute="centerX" secondItem="AtZ-Y9-mxF" secondAttribute="centerX" id="bh8-wO-udF"/>
                             <constraint firstItem="sQ5-Kj-F3a" firstAttribute="centerY" secondItem="fPw-5d-eB1" secondAttribute="centerY" id="rKr-ML-RLM"/>
+                            <constraint firstItem="fPw-5d-eB1" firstAttribute="leading" secondItem="YKy-ok-P1Z" secondAttribute="leading" id="rl5-Gj-y3T"/>
                             <constraint firstItem="fPw-5d-eB1" firstAttribute="top" secondItem="YKy-ok-P1Z" secondAttribute="bottom" constant="80" id="wV4-7J-ufw"/>
                         </constraints>
                     </view>
