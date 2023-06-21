@@ -62,6 +62,9 @@
                                 <rect key="frame" x="196.66666666666666" y="614.33333333333337" width="97.999999999999972" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reload"/>
+                                <connections>
+                                    <action selector="reloadButtomTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iJb-aN-xVu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -80,6 +83,9 @@
                             <constraint firstItem="fPw-5d-eB1" firstAttribute="top" secondItem="YKy-ok-P1Z" secondAttribute="bottom" constant="80" id="wV4-7J-ufw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="weatherImageView" destination="Cot-sD-19c" id="lW1-eF-34p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
