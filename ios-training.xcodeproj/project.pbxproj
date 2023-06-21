@@ -16,6 +16,7 @@
 		283CDBE52A41D86100D8C843 /* ios_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CDBE42A41D86100D8C843 /* ios_trainingTests.swift */; };
 		283CDBEF2A41D86100D8C843 /* ios_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CDBEE2A41D86100D8C843 /* ios_trainingUITests.swift */; };
 		283CDBF12A41D86100D8C843 /* ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CDBF02A41D86100D8C843 /* ios_trainingUITestsLaunchTests.swift */; };
+		283CDBFF2A41D8E300D8C843 /* YumemiWeather in Frameworks */ = {isa = PBXBuildFile; productRef = 283CDBFE2A41D8E300D8C843 /* YumemiWeather */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283CDBFF2A41D8E300D8C843 /* YumemiWeather in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "ios-training";
+			packageProductDependencies = (
+				283CDBFE2A41D8E300D8C843 /* YumemiWeather */,
+			);
 			productName = "ios-training";
 			productReference = 283CDBCA2A41D86000D8C843 /* ios-training.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 283CDBC12A41D86000D8C843;
+			packageReferences = (
+				283CDBFD2A41D8E300D8C843 /* XCRemoteSwiftPackageReference "ios-training" */,
+			);
 			productRefGroup = 283CDBCB2A41D86000D8C843 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		283CDBFD2A41D8E300D8C843 /* XCRemoteSwiftPackageReference "ios-training" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yumemi-inc/ios-training.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		283CDBFE2A41D8E300D8C843 /* YumemiWeather */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 283CDBFD2A41D8E300D8C843 /* XCRemoteSwiftPackageReference "ios-training" */;
+			productName = YumemiWeather;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 283CDBC22A41D86000D8C843 /* Project object */;
 }
